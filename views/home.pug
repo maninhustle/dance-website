@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+    style
+        include ../static/dancing.css
+
+block content 
+    
+    section#introSection
+            div Welcome to Yami's Dance Academy
+            div.small Eat Sleep DANCE Repeat
+
+    section#missionSection 
+          h2 Our Mission
+          div.card
+             h3 Dance perfection
+             div.card-box
+                 div.card-img 
+                  img(src="/static/img/img1.jpg")
+             div.card-content 
+                  p This is the best Dance Academy of the Universe
+                  
+          div.card
+             h3 Dance the way you like 
+               div.card-box
+                 div.card-img 
+                  img(src="/static/img/img2.jpg")
+             div.card-content 
+                  p This is the best Dance Academy of the Universe
+                  
+
+          div.card
+             h3 Expert Teaching
+               div.card-box
+                 div.card-img 
+                  img(src="/static/img/img3.jpg")
+             div.card-content 
+                  p This is the best Dance Academy of the Universe
+                  
+           
+
+
+    section#sponsorsSection
+          h2 Our Sponsers
+          div#sponsors 
+              img(src="/static/logos/img1.jpg", alt="Sponser Image", class="spImage")
+              img(src="/static/logos/img2.jpg", alt="Sponser Image", class="spImage")
+              img(src="/static/logos/img3.jpg", alt="Sponser Image", class="spImage")
+              img(src="/static/logos/img4.jpg", alt="Sponser Image", class="spImage")
+                                                                                                
+    

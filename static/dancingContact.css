@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+   
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 100vh;
+    margin: 43px 0;
+}
+
+.container h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 34px;
+}
+ .myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.myInput{
+    width: 616px;
+    padding: 8px;
+    margin: 11px;
+    border: 2px solid rgb(8, 7, 41);
+    border-radius: 7px;
+    outline: none;
+}
+
+
+.btn{
+    padding: 8px 39px;
+    margin: 10px 23px;
+    font-size: 18px;
+    font-family: 'Audiowide';
+    border: 2px solid #978686;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
